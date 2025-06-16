@@ -121,9 +121,4 @@ python evaluate.py
   * Анализ аудио-дорожки для комплексного подхода
   * Fine-tuning предобученной CNN на специфичных видеоматериалах
 
----
 
-## Автор
-
-**MrGraig**
-GitHub: [https://github.com/MrGraig/Int](https://github.com/MrGraig/Int)
