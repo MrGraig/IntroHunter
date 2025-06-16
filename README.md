@@ -11,10 +11,12 @@
 
 ```
 IntroHunter/
-├── extract_segments.py            # Генерация обучающих сегментов из JSON-разметки
-├── search_between_black_stream.py # Классический метод: детектирование черных экранов + OCR
-├── evaluate.py                    # Скрипт оценки качества классического метода
-├── model.ipynb                    # Jupyter Notebook: обучение и оценка CNN-эмбеддингового классификатора
+├── black_stream_search/
+├──├── search_between_black_stream.py # Классический метод: детектирование черных экранов + OCR
+├──├── evaluate.py                    # Скрипт оценки качества классического метода
+├── CNN_search/
+├──├── extract_segments.py            # Генерация обучающих сегментов из JSON-разметки
+├──├── model.ipynb                    # Jupyter Notebook: обучение и оценка CNN-эмбеддингового классификатора
 ├── requirements.txt               # Зависимости проекта
 └── .gitignore                     # Исключения для Git
 ```
