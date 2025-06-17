@@ -11,7 +11,7 @@
 
 ```
 IntroHunter/
-├── black_stream_search/
+├── black_screen_search/
 ├──├── search_between_black_stream.py # Классический метод: детектирование черных экранов + OCR
 ├──├── evaluate.py                    # Скрипт оценки качества классического метода
 ├── CNN_search/
